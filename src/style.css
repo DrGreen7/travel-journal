@@ -1,0 +1,101 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(
+    to left top,
+    #fec9c9,
+    #ffbbb5,
+    #ffae9e,
+    #ffa284,
+    #fd9869
+  );
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: white;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  margin-left: 0.6rem;
+  font-weight: 600;
+}
+
+section {
+  display: flex;
+  margin: 2rem 0;
+  width: 60rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+section:hover {
+  box-shadow: none;
+}
+
+section img {
+  width: 15rem;
+  height: 16.5rem;
+  object-fit: cover;
+}
+
+section .container {
+  margin-left: 1rem;
+  padding: 2rem 0;
+  color: white;
+}
+
+section .container i {
+  color: #f55a5a;
+}
+
+.section--location {
+  letter-spacing: 0.3rem;
+  margin-left: 0.5rem;
+}
+
+a {
+  color: #918e9b;
+  margin-left: 0.5rem;
+}
+
+.section--title {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #55433b;
+}
+
+section .container h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+section .container p {
+  font-size: 1.2rem;
+}
+
+.main--section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
